@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">BrickList</string>
+    <string name="action_settings">Settings</string>
+    <string name="no_projects_text">No projects yet!\nAdd new one using button in bottom right screen corner</string>
+
+    <string name="settings_prefix_title">Prefix of the URL</string>
+    <string name="settings_prefix_default">http://fcds.cs.put.poznan.pl/MyWeb/BL/</string>
+    <string name="settings_prefix_summary">URL of the source of Sets Lists</string>
+
+    <string name="archive_title">Show archived</string>
+    <string name="archive_summary">Show archived sets on the list of projects</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="title_new_project">New Project</string>
+    <string name="project_name_hint">Name your project here</string>
+    <string name="project_number_hint">Input your set number here</string>
+    <string name="new_project_add_button">Add new project</string>
+
+    <string name="part_name_prefix">Name:</string>
+    <string name="part_color_prefix">Color:</string>
+    <string name="part_quantity_prefix">In store:</string>
+
+    <string name="archived_checkbox">Archived</string>
+    <string name="export_xml_button">Export Wanted List as XML</string>
+    <string name="share_text">Export Wanted List using</string>
+
+    <string name="error_message_title">Error occurred</string>
+    <string name="error_message">Check internet connection and set number</string>
+    <string name="new_project_toast">New project created!</string>
+
+</resources>
+
