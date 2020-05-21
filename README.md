@@ -1,7 +1,7 @@
 # BrickList
 - created using Android Studio<br>
 - API 24 - Android 7.0<br>
-- tested on Xiaomi Redmi Note 4 with Android 7.0<br>
+- tested on Xiaomi Redmi Note 4 with Android 7.0 and Pixel 3a with Android 10 - API 29 (virtual device)<br>
 <br>
 Screenshots: <br>
 <span>
