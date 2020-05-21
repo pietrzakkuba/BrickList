@@ -46,32 +46,41 @@ class NewProjectActivity : AppCompatActivity() {
         loading_panel.visibility = View.GONE
     }
 
-    override fun onResume() {
-        super.onResume()
-        showKeyboard()
-    }
+//    override fun onResume() {
+//        super.onResume()
+//        showKeyboard()
+//    }
 
 
-    private fun showKeyboard() {
-        val imm =
-            getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
-        imm.toggleSoftInput(InputMethodManager.SHOW_FORCED, 0)
+//    private fun showKeyboard() {
+//        val imm =
+//            getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
+//        imm.toggleSoftInput(InputMethodManager.SHOW_FORCED, 0)
+//    }
+//
+//    private fun closeKeyboard() {
+//        val view = this.currentFocus
+//        if (view != null) {
+//            val imm =
+//                getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
+//            imm.hideSoftInputFromWindow(view.windowToken, 0)
+//        }
+//    }
 
-    }
-
-    private fun closeKeyboard() {
-        val view = this.currentFocus
-        if (view != null) {
-            val imm =
-                getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
-            imm.hideSoftInputFromWindow(view.windowToken, 0)
-        }
-    }
-
-    override fun onPause() {
-        closeKeyboard()
-        super.onPause()
-    }
+//    override fun onPause() {
+//        super.onPause()
+//        closeKeyboard()
+//    }
+//
+//    override fun onStop() {
+//        super.onStop()
+//        closeKeyboard()
+//    }
+//
+//    override fun onDestroy() {
+//        super.onDestroy()
+//        closeKeyboard()
+//    }
 
 
     private fun enableButton() {
